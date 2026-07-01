@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>right_bottom_popupwindow</class>
+ <widget class="QDialog" name="right_bottom_popupwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>268</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget_main" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>381</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget[objectName=&quot;widget_main&quot;] {
+	background-image:url(:/resource/image/bk_modal.png)
+}
+</string>
+   </property>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>381</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_system_icon">
+       <property name="minimumSize">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel[objectName=&quot;label_system_icon&quot;] { 
+	border-image: url(:/resource/icon/tray_windows.ico)
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_title">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QToolButton" name="btn_close">
+       <property name="text">
+        <string>x</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_splite">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>30</y>
+      <width>371</width>
+      <height>8</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>8</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>8</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/resource/image/splite_line.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/resource/image/popup_info_title.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_info_title">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>60</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_info">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>110</y>
+      <width>181</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>16</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/resource/image/splite_line.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_info_title_2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>任务名：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_hide">
+    <property name="geometry">
+     <rect>
+      <x>184</x>
+      <y>230</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

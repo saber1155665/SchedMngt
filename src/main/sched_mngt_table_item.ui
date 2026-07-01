@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sched_mngt_table_item</class>
+ <widget class="QWidget" name="sched_mngt_table_item">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>357</width>
+    <height>186</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: transparent;</string>
+  </property>
+  <widget class="QLabel" name="label_day_lunar_day">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>349</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>Unknown</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>349</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vertical_layout_task_item">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>定时任务:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>349</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vertical_layout_work_log">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>工作日志:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

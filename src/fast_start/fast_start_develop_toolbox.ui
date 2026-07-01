@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fast_start_develop_toolbox</class>
+ <widget class="QDialog" name="fast_start_develop_toolbox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widgetCenter" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>381</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>-1</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit {
+            background-color: white;       /* 编辑框背景（不透明） */
+            border: 2px solid #666666;     /* 边框颜色 */
+            border-radius: 20px;           /* 圆角半径（值越大越圆） */
+            padding-left: 15px;            /* 左内边距（避免文字贴边） */
+            padding-right: 15px;           /* 右内边距 */
+            font-size: 24px;               /* 字体大小 */
+            height: 40px;                  /* 编辑框高度 */
+        }
+        QLineEdit:focus {
+            border-color: #409EFF;         /* 聚焦时边框高亮 */
+            outline: none;                 /* 去掉默认聚焦轮廓 */
+        }</string>
+       </property>
+       <property name="placeholderText">
+        <string>请输入内容...</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
