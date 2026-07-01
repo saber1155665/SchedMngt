@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>image/frame_btn_close_hot.bmp</file>
+        <file>image/frame_btn_close_normal.bmp</file>
+        <file>image/splite_line.png</file>
+        <file>image/main_bottom.png</file>
+        <file>image/headerctrl_down.bmp</file>
+        <file>image/headerctrl_hot.bmp</file>
+        <file>image/headerctrl_normal.bmp</file>
+        <file>image/Headerctrl_Sperator.bmp</file>
+        <file>image/tab_back.bmp</file>
+        <file>image/alarm_clock.png</file>
+        <file>image/clock_in.png</file>
+        <file>image/work_log.png</file>
+        <file>image/bk.png</file>
+        <file>image/bk_modal.png</file>
+        <file>image/next_page.png</file>
+        <file>image/previous_page.png</file>
+        <file>image/drop_down.png</file>
+        <file>image/messagebox_bk.png</file>
+        <file>icon/tray_windows.ico</file>
+        <file>image/popup_info_title.png</file>
+        <file>image/log_info.png</file>
+        <file>image/develop_tool_box.png</file>
+        <file>image/tray_bk.jpg</file>
+    </qresource>
+</RCC>
